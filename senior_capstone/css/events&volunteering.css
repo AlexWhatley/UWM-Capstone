@@ -1,0 +1,89 @@
+
+* {
+  box-sizing: border-box;
+}
+body{/*flex display to put body in a column and gets rid of margins*/
+    margin:auto 0px;
+}
+.body{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:flex-start;
+}
+
+.title{
+    text-align:center;
+}
+.events{
+    padding:0px 25px 0px 25px;
+    justify-content:space-evenly;
+    /*border:1px solid black;*/
+    float:right;
+    margin:0px 150px 0px 0px;
+}
+.events_section {
+  display: flex;
+  /*background-color: DodgerBlue;*/
+}
+
+.events_section > div {
+  /*background-color: #f1f1f1;*/
+  margin: 5px;
+  padding: 2px;
+  font-size: 30px;
+}
+
+.events_section{/*First Events/Volunteering Row (Images)*/
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-evenly;
+    
+    /*border:3px solid yellow;*/
+    padding:0px 25px 0px 25px;
+}
+.imgcontainer{
+    width:auto;
+    height:auto;
+    
+}
+.caption_section{/*First Events/Volunteering Row (Text)*/
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-evenly;
+}
+
+.imgcontainer{ /*For event images (not-featured*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#eaffda;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    border:1px solid black;
+    border-radius: 5px;
+    border-style: groove;
+    width: 400px;
+    height:250px; 
+}
+.caption{/*For caption text (not-featured)*/
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    width: 400px;
+    height:150px; 
+}
+.caption p{
+    margin:0px;
+}
+
+.events img, .volunteering img{/*Actual image of event/volunteering(not-featured)*/
+    width:50%;
+    height: 75%;
+    
+}
+footer{
+    background-color:rgb(154, 203, 166);
+    margin:auto 0px;
+}  

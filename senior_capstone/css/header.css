@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body{/*flex display to put body in a column and gets rid of margins*/
+    margin:auto 0px;
+}
+.header{
+    margin:auto 0px;
+    padding-bottom:22px;
+    background-color:rgb(154, 203, 166); /*linear-gradient(to right,#CEE8D4 ,#4DAA57, #CEE8D4);*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo{ /*Keeps logo at top left corner with positioning */
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+.links a{ /* coloring and decoration of nav links, padding puts spaces between them*/
+    color: #EDFFF1;
+    padding:0px 20px 0px 20px;
+    text-decoration: none;
+}
+.links a:active{
+    text-decoration: underline;
+    color:#EDFFF1;
+}
+.links a:unvisited{
+    color:#EDFFF1;
+}
+ul{ /*flex display to put links in a row and wrap them*/
+    list-style-type:none;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    padding-top:15px;
+    
+}
+

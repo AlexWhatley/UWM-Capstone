@@ -1,0 +1,52 @@
+
+body{
+    background-color:rgb(154, 203, 166);
+    margin:auto 0px;
+}
+/*Login*/
+.header{
+    margin-top:5%;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+.account img{/*logo in login container*/
+    width: 150px;
+}
+.account{/*aligning all items inside login container and creating border/colors*/
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    padding: 10px;
+    border-width:auto;
+    width:600px;
+    height:500px;
+    border-color: #9ACBA6;
+    border-style:solid;
+    border-radius: 15px;
+    background: #EDFFF1;
+    
+}
+.account input{/*seperates inputs in login container*/
+    margin:10px;
+
+}
+.accountform{/*more positioning and color for login form*/
+    display:flex;
+    flex-direction:column;
+    font-family: 13px "Average Sans", sans-serif;
+    font-weight: bold;
+    color: blue;
+    
+}
+fieldset {/**/
+    font-family: "Average Sans", sans-serif;
+    font-weight: bold;
+    color: blue;
+}

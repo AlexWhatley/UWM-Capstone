@@ -1,0 +1,102 @@
+
+
+/*Login*/
+.loginbody{/*positioning of login container in center of screen*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:5% 0 10% 0;
+}
+.login img{/*logo in login container*/
+    width: 150px;
+}
+.login{/*aligning all items inside login container and creating border/colors*/
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px;
+    border-width:auto;
+    width:600px;
+    height:500px;
+    border-color: #9ACBA6;
+    border-style:solid;
+    border-radius: 15px;
+    background: #EDFFF1;
+    
+}
+.login input{/*seperates inputs in login container*/
+    margin:10px;
+
+}
+.loginform{/*more positioning and color for login form*/
+    display:flex;
+    flex-direction:column;
+    font-family: 13px "Average Sans", sans-serif;
+    font-weight: bold;
+    color: blue;
+    
+}
+fieldset {/**/
+    font-family: "Average Sans", sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+footer{
+    
+    background-color:rgb(154, 203, 166);
+    margin:auto 0px;
+}  
+.eventinfo{
+    height:85%;
+    width:90%;
+    border:1px solid black;
+}
+.registrationbody{/*positioning of login container in center of screen*/
+    display:flex;
+    justify-content:center;
+    flex-flow:column wrap;
+    align-items:center;
+    margin:5% 0 10% 0;
+}
+
+.registration{/*aligning all items inside login container and creating border/colors*/
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px;
+    border-width:auto;
+    width:900px;
+    height:500px;
+    border-color: #9ACBA6;
+    border-style:solid;
+    border-radius: 15px;
+    background: #EDFFF1;
+    
+}
+.registrationbody p, button{/*seperates inputs in login container*/
+    margin:5px;
+    max-width:45%;
+    text-align:center;
+    font-family: 13px "Average Sans", sans-serif;
+    font-weight: bold;
+}
+.registrationbody p{/*seperates inputs in login container*/
+    display:flex;
+    flex-flow:column nowrap;
+    font-family: 13px "Average Sans", sans-serif;
+    font-weight: bold;
+    color:green;
+}
+.registrationform{/*more positioning and color for login form*/
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+.registrationform input{/*more positioning and color for login form*/
+    margin:5px;
+    width:200px;
+    max-width:40%;
+    text-align:center;
+    font-family: 13px "Average Sans", sans-serif;
+    font-weight: bold;
+}
